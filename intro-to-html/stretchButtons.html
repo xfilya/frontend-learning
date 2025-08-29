@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <button class="Smooth">One</button>
+    <button class="Smooth">Two</button>
+    <button class="Smooth">Three</button> <br />
+    <button class="Stretch">Stretch</button> <br />
+    <button class="RealButton">Shadow</button> <br />
+    <button class="Inverse">Inverse</button>
+  </body>
+</html>
+
+<style>
+  button.Smooth {
+    background-color: green;
+    border: 0px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    transition: width 0.15s;
+    font-size: 24px;
+    transition: all 0.15s ease;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: solid;
+  }
+
+  button.Smooth:hover {
+    padding: 10px 40px;
+    margin: 0px;
+    
+  }
+
+  button.Stretch {
+    margin: 10px;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: blue;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+
+  button.Stretch:hover {
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 15px;
+    background-color: rgb(104, 8, 104);
+    border-radius: 3px;
+  }
+
+  button.RealButton {
+    margin: 10px;
+    border: none;
+    padding: 10px 30px;
+    background-color: aquamarine;
+    border-radius: 15px;
+
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  button.RealButton:hover {
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(129, 225, 161, 0.9);
+  }
+
+  button.RealButton:active {
+    box-shadow: 5px 5px 10px rgb(117, 223, 152);
+    opacity: 0.7;
+  }
+
+  button.Inverse {
+    margin: 10px;
+    border-width: 1px;
+    border-color: rgb(10, 142, 185);
+    padding: 20px 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgb(10, 142, 185);
+    font-weight: bold;
+    font-size: 15px;
+
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  button.Inverse:hover {
+    background-color: rgb(10, 142, 185);
+    border-color: white;
+    color: white;
+  }
+</style>
