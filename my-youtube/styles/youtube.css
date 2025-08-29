@@ -1,0 +1,15 @@
+.thumbnail {
+  width: 300px;
+  border-radius: 3px;
+  border: none;
+  object-fit: cover;
+  object-position: right;
+  margin: 0px 15px;
+}
+
+.search{
+    font-size: 20px;
+    border-style: solid;
+    border-color: blue;
+    color: black;
+}
